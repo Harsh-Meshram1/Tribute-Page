@@ -1,0 +1,44 @@
+img{
+  display:block;
+  max-width:100%;
+  width:500px;
+  left:0;
+  align-item:center;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  position: relative;
+  padding:20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+
+h1{
+  text-align:center;
+  background-color:black;
+  color:white;
+}
+body{
+  background:url('https://thumb.photo-ac.com/b9/b957a81d9b56943e1d350f41061a0ca1_t.jpeg');
+  background-size:cover;
+}
+
+#img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  
+}
+
+#img-caption{
+  text-align:center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+#tribute-info{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
